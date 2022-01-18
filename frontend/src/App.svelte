@@ -22,7 +22,7 @@
 	<div class="bar">
 		<h1>DMKessa</h1>
 		<input type="text" placeholder="wyszukiwanie">
-		<a href="">Logowanie</a>
+		<a href="#asda">Logowanie</a>
 	</div>
 	
 	
