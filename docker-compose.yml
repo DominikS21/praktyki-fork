@@ -58,6 +58,8 @@ services:
     image: wodby/node:${NODE_TAG:-16-dev}
     container_name: "${APP_NAME}_node"
     working_dir: /app
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     ports:
     - 8900:5555
     volumes:
