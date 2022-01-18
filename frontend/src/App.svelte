@@ -2,7 +2,7 @@
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
 
-	let name = ':)dsas';
+	let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
 		try{
@@ -19,41 +19,55 @@
 
 
 <main>
-	<h1>Hellosdasdad {name} !</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<div class="bar">
+		<h1>DMK</h1>
+		<input type="text" placeholder="wyszukiwanie">
+		<a href="">Logowanie</a>
+	</div>
+	
 	
 	{#each articles as article}
 	<div>
 		<Card>
-			<div class="title">
+			<div class="photo">
 				<h3>{article.title}</h3>
 			</div>
-			<div class="author">
+			<div class="descr">
 				<h4>Author: {article.author.name}</h4>
 			</div>
-			<div class="content">
+			<div class="price">
 				<p>{article.body}</p>
 			</div>
 		</Card>
 	</div>
 	{/each}
+	
+	
 </main>
 
 
 
+
 <style>
+	/* Content strony */
+	
+	.bar{
+  	background-color: #BFD7FF;
+  	text-align: center;
+  	padding: 20px 20px;
+	}
 	main {
-		text-align: center;
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #5465FF;
 		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+		font-size: 64px;
+		font-weight: 500;
+		display: inline;
 	}
 
 	@media (min-width: 640px) {
@@ -62,21 +76,28 @@
 		}
 	}
 
+	a {
+		color: #5465FF;
+		font-size: 40px;
+		font-weight: 500;
+	}
 
 	/* Styling card contents */
-	.title{
+	.photo{
 		color: black;
 		font-weight: bold;
 		margin: 0.5em
 	}
-	.author{
+	.descr{
 		text-align: left;
-		color: #555;
+		color: #5465FF;
 		font-weight: 200;
 		margin: 0.5em;
 	}
-	.content{
+	.price{
+		color: #5465FF;
 		margin: 0.5em;
-		text-align: left;
+		text-align: right;
 	}
+	
 </style>
