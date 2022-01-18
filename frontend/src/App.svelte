@@ -2,7 +2,7 @@
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
 
-	let name = ':)';
+	let name = ':)dsas';
 	let articles = [];
 	onMount(async () => {
 		try{
