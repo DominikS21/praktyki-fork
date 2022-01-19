@@ -12,8 +12,8 @@
     .card{
         background-color: white;
         padding: 1.5em 3em;
-        border-radius: 20px;
-        box-shadow: 3px 3px #555;
+        border-radius: 10px;
+        box-shadow: 1px 1px #555;
     }
 
 </style>

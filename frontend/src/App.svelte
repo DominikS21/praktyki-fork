@@ -1,7 +1,8 @@
 <script>
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
-
+	import Navigation_Bar_Niezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
+	import Navigation_Bar_zalogowany from "./components/Navigation_Bar_zalogowany.svelte";
 	let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
