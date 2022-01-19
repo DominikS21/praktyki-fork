@@ -1,5 +1,5 @@
 <script>
-	let name = ':)';
+	let name = 'Tomek';
 </script>
 
 <div class="bar">
@@ -19,6 +19,8 @@
 		color: #5465FF;
 		font-size: 40px;
 		font-weight: 500;
+		display: inline;
+		vertical-align: 10px;
 	}
     h1 {
 		color: #5465FF;
@@ -26,5 +28,12 @@
 		font-size: 64px;
 		font-weight: 500;
 		display: inline;
+	}
+	input {
+		text-align: left;
+		font-size: 20px;
+        border-radius: 10px;
+		display: inline;
+		vertical-align: 15px;
 	}
 </style>
