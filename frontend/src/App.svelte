@@ -2,9 +2,8 @@
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
 	import NavigationBarNiezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
-	import NavigationBarzalogowany from "./components/Navigation_Bar_zalogowany.svelte";
-
-	let name = 'Tomek';
+	import NavigationBarZalogowany from "./components/Navigation_Bar_zalogowany.svelte";
+		let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
 		try{
@@ -21,9 +20,10 @@
 
 
 <main>
-	<NavigationBarzalogowany>	
-	</NavigationBarzalogowany>
 
+<NavigationBarZalogowany></NavigationBarZalogowany>
+
+	
 	{#each articles as article}
 	<div>
 		<Card>
@@ -59,13 +59,11 @@
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #5465FF;
-		text-transform: uppercase;
-		font-size: 64px;
-		font-weight: 500;
-		display: inline;
-	}
+	
+	
+
+
+	
 
 	@media (min-width: 640px) {
 		main {
@@ -73,11 +71,6 @@
 		}
 	}
 
-	a {
-		color: #5465FF;
-		font-size: 40px;
-		font-weight: 500;
-	}
 
 	/* Styling card contents */
 	.title{
