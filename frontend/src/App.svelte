@@ -28,12 +28,15 @@
 	<div>
 		<Card>
 			<div class="photo">
+				<img src="#" width="400px" height="300px">
+			</div>
+			<div class="title">
 				<h3>{article.title}</h3>
 			</div>
-			<div class="descr">
+			<div class="price">
 				<h4>Author: {article.author.name}</h4>
 			</div>
-			<div class="price">
+			<div class="descr">
 				<p>{article.body}</p>
 			</div>
 		</Card>
@@ -70,21 +73,21 @@
 
 
 	/* Styling card contents */
-	.photo{
+	.title{
 		color: black;
 		font-weight: bold;
 		margin: 0.5em
 	}
-	.descr{
+	.price{
 		text-align: left;
 		color: #5465FF;
 		font-weight: 200;
 		margin: 0.5em;
 	}
-	.price{
+	.descr{
 		color: #5465FF;
 		margin: 0.5em;
-		text-align: right;
+		text-align: left;
 	}
 	
 </style>
