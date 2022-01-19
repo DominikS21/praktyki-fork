@@ -21,14 +21,14 @@
 
 <main>
 
-<NavigationBarZalogowany></NavigationBarZalogowany>
+<NavigationBarNiezalogowany></NavigationBarNiezalogowany>
 
 	
 	{#each articles as article}
 	<div>
 		<Card>
 			<div class="photo">
-				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="400px" height="300px">
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="100px" height="150px">
 			</div>
 			<div class="title">
 				<h3>{article.title}</h3>
@@ -65,7 +65,7 @@
 
 	
 
-	@media (min-width: 640px) {
+	@media (min-width: 650px) {
 		main {
 			max-width: none;
 		}
