@@ -19,12 +19,13 @@
 
 
 <main>
-	<div class="bar">
-		<h1>DMK</h1>
-		<input type="text" placeholder="wyszukiwanie">
-		<a href="#asda">Logowanie</a>
-	</div>
-	
+
+<div class="bar">
+	<h1>DMK</h1>
+	<input type="text" placeholder="wyszukiwanie">
+	<a href="#asda">Logowanie</a>
+					
+</div>
 	
 	{#each articles as article}
 	<div>
@@ -55,6 +56,7 @@
   	background-color: #BFD7FF;
   	text-align: center;
   	padding: 20px 20px;
+	
 	}
 	main {
 		padding: 1em;
@@ -68,7 +70,12 @@
 		font-size: 64px;
 		font-weight: 500;
 		display: inline;
+		
 	}
+	
+
+
+	
 
 	@media (min-width: 640px) {
 		main {
