@@ -1,6 +1,8 @@
 <script>
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
+	import NavigationBarNiezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
+	import NavigationBarzalogowany from "./components/Navigation_Bar_zalogowany.svelte";
 
 	let name = 'Tomek';
 	let articles = [];
@@ -19,13 +21,9 @@
 
 
 <main>
-	<div class="bar">
-		<h1>DMK</h1>
-		<input type="text" placeholder="wyszukiwanie">
-		<a href="#asda">Logowanie</a>
-	</div>
-	
-	
+	<NavigationBarzalogowany>	
+	</NavigationBarzalogowany>
+
 	{#each articles as article}
 	<div>
 		<Card>
@@ -51,11 +49,7 @@
 <style>
 	/* Content strony */
 	
-	.bar{
-  	background-color: #BFD7FF;
-  	text-align: center;
-  	padding: 20px 20px;
-	}
+	
 	main {
 		padding: 1em;
 		max-width: 240px;
