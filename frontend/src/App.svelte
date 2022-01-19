@@ -65,7 +65,6 @@
 		margin: 0 auto;
 	}
 
-<<<<<<< HEAD
 	h1 {
 		color: #5465FF;
 		text-transform: uppercase;
@@ -77,8 +76,6 @@
 	
 
 
-=======
->>>>>>> 49c08d63c47053b9f57b6c3c8bd0980441ef95a6
 	
 
 	@media (min-width: 640px) {
