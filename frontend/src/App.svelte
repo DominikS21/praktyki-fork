@@ -1,9 +1,8 @@
 <script>
 	import { onMount } from "svelte";
 	import Card from './components/Card.svelte'
-	import NavigationBarNiezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
-	import NavigationBarzalogowany from "./components/Navigation_Bar_zalogowany.svelte";
-
+	import Navigation_Bar_Niezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
+	import Navigation_Bar_zalogowany from "./components/Navigation_Bar_zalogowany.svelte";
 	let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
@@ -21,9 +20,14 @@
 
 
 <main>
-	<NavigationBarzalogowany>	
-	</NavigationBarzalogowany>
 
+<div class="bar">
+	<h1>DMK</h1>
+	<input type="text" placeholder="wyszukiwanie">
+	<a href="#asda">Logowanie</a>
+					
+</div>
+	
 	{#each articles as article}
 	<div>
 		<Card>
@@ -49,12 +53,28 @@
 <style>
 	/* Content strony */
 	
+	.bar{
+  	background-color: #BFD7FF;
+  	text-align: center;
+  	padding: 20px 20px;
 	
+	}
 	main {
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
 	}
+
+	h1 {
+		color: #5465FF;
+		text-transform: uppercase;
+		font-size: 64px;
+		font-weight: 500;
+		display: inline;
+		
+	}
+	
+
 
 	
 
