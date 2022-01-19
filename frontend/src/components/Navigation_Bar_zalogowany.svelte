@@ -28,6 +28,8 @@
 		font-size: 64px;
 		font-weight: 500;
 		display: inline;
+		
+		
 	}
 	input {
 		text-align: left;
