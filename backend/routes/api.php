@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\AuthorizeController;
+use GuzzleHttp\Middleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,4 +28,14 @@ Route::get('/articles/{id}', [ArticleController::class, 'readArticle']);
 Route::delete('/articles/{id}', [ArticleController::class, 'deleteArticle']);
 
 Route::post('/articles', [ArticleController::class, 'createArticle']);
+
+Route::post('register', [\App\Http\Controllers\AuthorizeController::class, 'register']);
+
+Route::post('login', [\App\Http\Controllers\AuthorizeController::class, 'login']);
+
+
+Route::middleware(middleware: 'auth:sanctum')->group(function() {
+    Route::get('user', [\App\Http\Controllers\AuthorizeController::class, 'user']);
+    Route::post('logout', [\App\Http\Controllers\AuthorizeController::class, 'logout']);
+});
 
