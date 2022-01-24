@@ -3,17 +3,18 @@
 </script>
 
 <div class="bar">
-    <h1>DMK</h1>
-    <input type="text" placeholder="wyszukiwanie">
-    <a href="#asda">{name}</a>
+    	<h1>DMK</h1>
+    	<input type="text" placeholder="wyszukiwanie">
+    	<a href="#asda">{name}</a>
 </div>
 
 
 <style>
     .bar{
   	background-color: #BFD7FF;
-  	text-align: center;
-  	padding: 20px 20px;
+  	padding:  20px;
+	overflow: hidden;
+	text-align: center;
 	}
     a {
 		color: #5465FF;
@@ -21,6 +22,7 @@
 		font-weight: 500;
 		display: inline;
 		vertical-align: 10px;
+		text-align: right;
 	}
     h1 {
 		color: #5465FF;
@@ -32,10 +34,10 @@
 		
 	}
 	input {
-		text-align: left;
 		font-size: 20px;
         border-radius: 10px;
 		display: inline;
 		vertical-align: 15px;
 	}
+	
 </style>
