@@ -34,7 +34,7 @@ Route::post('register', [\App\Http\Controllers\AuthorizeController::class, 'regi
 Route::post('login', [\App\Http\Controllers\AuthorizeController::class, 'login']);
 
 
-Route::middleware(middleware: 'auth:sanctum')->group(function() {
+Route::middleware('auth:sanctum')->group(function() {
     Route::get('user', [\App\Http\Controllers\AuthorizeController::class, 'user']);
     Route::post('logout', [\App\Http\Controllers\AuthorizeController::class, 'logout']);
 });
