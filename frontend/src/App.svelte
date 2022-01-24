@@ -3,6 +3,7 @@
 	import Card from './components/Card.svelte'
 	import NavigationBarNiezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
 	import NavigationBarZalogowany from "./components/Navigation_Bar_zalogowany.svelte";
+	import Footer from "./components/Footer.svelte";
 		let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
@@ -60,7 +61,8 @@
 			</div>
 		</Card>
 	</div>
-	
+	<Footer>
+	</Footer>
 	
 	
 </main>
