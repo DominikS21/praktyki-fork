@@ -23,6 +23,7 @@
 		display: inline;
 		vertical-align: 10px;
 		text-align: right;
+		margin-left: 300px;
 	}
     h1 {
 		color: #5465FF;
@@ -30,6 +31,7 @@
 		font-size: 64px;
 		font-weight: 500;
 		display: inline;
+		margin-right: 500px;
 		
 		
 	}
@@ -37,7 +39,10 @@
 		font-size: 20px;
         border-radius: 10px;
 		display: inline;
-		vertical-align: 15px;
+		vertical-align: middle;
+		margin-right: 400px;
+		width: 300px;
+		
 	}
 	
 </style>

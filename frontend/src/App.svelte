@@ -21,10 +21,10 @@
 
 <main>
 
-<NavigationBarNiezalogowany></NavigationBarNiezalogowany>
+<NavigationBarZalogowany></NavigationBarZalogowany>
 
 	
-	{#each articles as article}
+	
 	<div>
 		<Card>
 			<div class="photo">
@@ -32,17 +32,35 @@
 				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="200px" height="150px">
 			</div>
 			<div class="title">
-				<h3>{article.title}</h3>
+				<h3>Nazwa</h3>
 			</div>
 			<div class="price">
-				<h4>Author: {article.author.name}</h4>
+				<h4>CENA</h4>
 			</div>
 			<div class="descr">
-				<p>{article.body}</p>
+				<p>Opis</p>
 			</div>
 		</Card>
 	</div>
-	{/each}
+
+	<div>
+		<Card>
+			<div class="photo">
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="200px" height="150px">
+			</div>
+			<div class="title">
+				<h3>Nazwa_1</h3>
+			</div>
+			<div class="price">
+				<h4>CENA_1</h4>
+			</div>
+			<div class="descr">
+				<p>Opis_1</p>
+			</div>
+		</Card>
+	</div>
+	
 	
 	
 </main>
