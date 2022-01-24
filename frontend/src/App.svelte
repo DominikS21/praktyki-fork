@@ -80,7 +80,8 @@
 		</Card>
 	</div>
 	
-	
+	<Footer>
+	</Footer>
 	
 </main>
 
