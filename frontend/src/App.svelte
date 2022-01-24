@@ -29,10 +29,10 @@
 		<Card>
 			<div class="photo">
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="200px" height="150px">
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="300px" height="150px">
 			</div>
 			<div class="title">
-				<h3>Nazwa</h3>
+				<h3>Nazwa_ogłoszenia</h3>
 			</div>
 			<div class="price">
 				<h4>CENA</h4>
@@ -47,16 +47,34 @@
 		<Card>
 			<div class="photo">
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="200px" height="150px">
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="300px" height="150px">
 			</div>
 			<div class="title">
-				<h3>Nazwa_1</h3>
+				<h3>Nazwa_ogłoszenia_1</h3>
 			</div>
 			<div class="price">
 				<h4>CENA_1</h4>
 			</div>
 			<div class="descr">
 				<p>Opis_1</p>
+			</div>
+		</Card>
+	</div>
+
+	<div>
+		<Card>
+			<div class="photo">
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="300px" height="150px">
+			</div>
+			<div class="title">
+				<h3>Nazwa_ogłoszenia_2</h3>
+			</div>
+			<div class="price">
+				<h4>CENA_2</h4>
+			</div>
+			<div class="descr">
+				<p>Opis_2</p>
 			</div>
 		</Card>
 	</div>

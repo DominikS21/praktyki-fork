@@ -16,7 +16,9 @@
         border-radius: 10px;
         box-shadow: 1px 1px #555;
         float: left;
-        margin-right: 10px;
+        margin-right: 100px;
+        height: 400px;
+        width: 450px;
         
         
     }
