@@ -37,7 +37,7 @@ class AuthorizeController extends Controller
         $cookie = cookie('jwt', $token, 60 * 24); 
 
         return response([
-                'message' => 'sukces'
+                'message' => 'Udało się zalogować'
         ])->withCookie($cookie);
     }
 
@@ -52,7 +52,7 @@ class AuthorizeController extends Controller
         $cookie = Cookie::forget('jwt');
 
         return response([
-            'message' => 'sukces'
+            'message' => 'Udało się wylogować'
         ])->withCookie($cookie);
     }
 }

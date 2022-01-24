@@ -3,6 +3,7 @@
 	import Card from './components/Card.svelte'
 	import NavigationBarNiezalogowany from "./components/Navigation_Bar_niezalogowany.svelte";
 	import NavigationBarZalogowany from "./components/Navigation_Bar_zalogowany.svelte";
+	import Footer from "./components/Footer.svelte";
 		let name = 'Tomek';
 	let articles = [];
 	onMount(async () => {
@@ -23,7 +24,7 @@
 
 <NavigationBarZalogowany></NavigationBarZalogowany>
 
-	
+	<h6>Ogłoszenia</h6>
 	
 	<div>
 		<Card>
@@ -93,9 +94,14 @@
 	main {
 		padding: 1em;
 		max-width: 240px;
-		margin: 0 auto;
+		margin: 0px auto;
 	}
-
+	h6 {
+		font-weight: bold;
+		margin-left: 70px;
+		margin-top: 20px;
+		font-size: 30px;
+	}
 	
 	
 
