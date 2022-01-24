@@ -29,7 +29,7 @@
 		<Card>
 			<div class="photo">
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="400px" height="300px">
+				<img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/20084.png" width="200px" height="150px">
 			</div>
 			<div class="title">
 				<h3>{article.title}</h3>
