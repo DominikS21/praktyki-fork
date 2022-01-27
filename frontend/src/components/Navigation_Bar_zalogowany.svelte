@@ -2,7 +2,7 @@
 	let name = 'Tomek';
 </script>
 
-<div class="bar">
+<div class="header">
     	<h1>DMK</h1>
     	<input type="text" placeholder="wyszukiwanie">
     	<a href="#asda">{name}</a>
@@ -10,11 +10,13 @@
 
 
 <style>
-    .bar{
+    .header{
   	background-color: #BFD7FF;
   	padding:  20px;
 	overflow: hidden;
 	text-align: center;
+	left: 0;
+	top: 0; 
 	}
     a {
 		color: #5465FF;
