@@ -21,11 +21,17 @@
 
 
 <main>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 
 <NavigationBarZalogowany></NavigationBarZalogowany>
 
 	<h6>Ogłoszenia</h6>
 	
+ 
+<div class="Card-div">
+
 	<div>
 		<Card>
 			<div class="photo">
@@ -83,6 +89,7 @@
 	<Footer>
 	</Footer>
 	
+</div>
 </main>
 
 
@@ -91,7 +98,12 @@
 <style>
 	/* Content strony */
 	
-	
+	:global(body) {
+        background-color: #2A2B2E;
+        align-items: center;
+        overflow:hidden;
+        box-sizing: border-box;
+    }
 	main {
 		padding: 1em;
 		max-width: 240px;
@@ -102,8 +114,19 @@
 		margin-left: 70px;
 		margin-top: 20px;
 		font-size: 30px;
+		color: #06D6A0;
 	}
 	
+	.Card-div{
+        width: 100vw;
+        height: 50vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
 	
 
 

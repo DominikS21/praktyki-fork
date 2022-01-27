@@ -11,13 +11,13 @@
 
 <style>
     .bar{
-  	background-color: #BFD7FF;
+  	background-color: #06D6A0;
   	padding:  20px;
 	overflow: hidden;
 	text-align: center;
 	}
     a {
-		color: #5465FF;
+		color: #2A2B2E;
 		font-size: 40px;
 		font-weight: 500;
 		display: inline;
@@ -26,7 +26,7 @@
 		margin-left: 300px;
 	}
     h1 {
-		color: #5465FF;
+		color: #2A2B2E;
 		text-transform: uppercase;
 		font-size: 64px;
 		font-weight: 500;
