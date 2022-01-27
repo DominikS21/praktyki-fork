@@ -23,7 +23,7 @@
         text-align: center;
         height: 50px;
         font-weight: bold;
-        background-color: #9BB1FF;
+        background-color: #06D6A0;
         
     }
     .column {

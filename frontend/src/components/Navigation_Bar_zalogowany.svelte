@@ -16,10 +16,9 @@
 	overflow: hidden;
 	text-align: center;
 	left: 0;
-	top: 0; 
 	}
     a {
-		color: #5465FF;
+		color: #2A2B2E;
 		font-size: 40px;
 		font-weight: 500;
 		display: inline;
@@ -28,7 +27,7 @@
 		margin-left: 300px;
 	}
     h1 {
-		color: #5465FF;
+		color: #2A2B2E;
 		text-transform: uppercase;
 		font-size: 64px;
 		font-weight: 500;
